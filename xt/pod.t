@@ -1,6 +1,5 @@
 use Test::More;
-use Test::Pod 1.14;
-eval { use Test::Pod 1.14; };
+eval { require Test::Pod; };
 
 if ($@) {
     Test::More::plan(

@@ -1,6 +1,6 @@
 use Test::More;
 
-eval { use Test::Pod::Coverage 1.04; };
+eval { require Test::Pod::Coverage; };
 
 if ($@) {
     Test::More::plan(
